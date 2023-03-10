@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,600;0,800;0,900;1,700&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+body {
+    padding: 0px;
+    margin: 0px;
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    background-image: url(./picture.jpg);
+
+   
+
+}
+div#container {
+    width: 1024px;
+
+  margin: 30px auto;
+}
+
+.quoteoftheday {
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: baseline;
+    bottom: 50px;
+    width: 300px;
+    color: rgb(255, 128, 9);
+}
+
+.name {
+    width: 720px;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: right;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+article {
+    padding: 100px 0px;
+}
+
+.quote h1 {
+    
+    font-size: 70px;
+    line-height: 70px;
+    margin: 0px;
+    font-weight:bold;
+    color: black;
+    text-shadow: 2px 2px 5px red;
+}
+
+.quoteby h4 {
+    font-size: 31px;
+    margin: 0px;
+    margin-top: 19px;
+    font-weight:bold;
+    text-decoration: underline;
+    color: red;
+   
+}
+
+.skills {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+.content p {
+    font-size: 19px;
+    padding-right: 27px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.skills h6 {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(255, 128, 9);
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    display: inline-block;
+}
+
+.skills ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills ul li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color:orange;
+}
+.skills ul li a,.content,.content a {
+    color:rgba(224, 224, 224, 0.685);
+} 
+@media only screen and (max-width:1024px) {
+    div#container {
+        width: 310px;
+    }
+    .quoteoftheday {
+       
+        width: 100%;
+    }
+    .name {
+        width: 100%;
+        text-align: left;
+    }
+    .quote h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .quoteby h4 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    article {
+        padding: 50px 0px;
+    }
+    .skills {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .content {
+        width: 100%;
+    }
+    .content p {
+        font-size: 17px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+     
+}
